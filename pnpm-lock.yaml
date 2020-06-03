@@ -6,6 +6,7 @@ devDependencies:
   luxon: 1.24.1
   markdown-it: 8.4.2
   markdown-it-anchor: 5.3.0_markdown-it@8.4.2
+  prettier: 2.0.5
 lockfileVersion: 5.1
 packages:
   /@11ty/dependency-tree/1.0.0:
@@ -2528,6 +2529,13 @@ packages:
       node: '>=6.0.0'
     resolution:
       integrity: sha512-C2hrAPzmRdpuL3iH0TDdQ6XCc9M7Dcc3zEW5BLerY65G4tWWszwv6nG/ksi6ul5i2mx22ubdljgktXCtNkydkw==
+  /prettier/2.0.5:
+    dev: true
+    engines:
+      node: '>=10.13.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
   /pretty-ms/0.2.2:
     dependencies:
       parse-ms: 0.1.2
@@ -3627,3 +3635,4 @@ specifiers:
   luxon: ^1.21.3
   markdown-it: ^8.4.2
   markdown-it-anchor: ^5.2.5
+  prettier: ^2.0.5
